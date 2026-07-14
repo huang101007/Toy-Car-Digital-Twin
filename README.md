@@ -8,7 +8,7 @@
 * 模型優化：針對訓練初期的過擬合問題，導入 5-fold Cross-Validation 評估模型泛化能力，並執行 Hyperparameter Tuning 與 Ensemble Learning。最終選用 Random Forest 預測直線距離 (R2 達 0.87)，XGBoost 預測側向偏移量。
 * GUI 視覺化平台：獨立開發虛實整合介面，具備四大核心模組：動態參數設定面板、即時預測結果顯示、數據視覺化分析，以及軌跡動畫模擬。並加入邊界約束條件以過濾不合理的物理設計。
 
-## 使用技術 (Tech Stack)
+## 使用技術
 * 程式語言：Python
 * 機器學習：Scikit-learn (Random Forest), XGBoost
 * 資料處理：Pandas, NumPy
